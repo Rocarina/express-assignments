@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+
+        <h1>🌤 Weather Dashboard</h1>
+
+        <p>
+
+            Search any available city to view the weather.
+
+        </p>
+
+    </header>
+
+    <nav>
+
+        <a href="/">Home</a>
+
+        <a href="/users">Users</a>
+
+        <a href="/weather">Weather</a>
+
+        <a href="/contact">Contact</a>
+
+    </nav>
+
+    <section class="weather-section">
+
+        <div class="weather-search">
+
+            <input
+                type="text"
+                id="city"
+                placeholder="Enter City (Delhi, Goa, Mumbai...)"
+            >
+
+            <button id="weatherBtn">
+
+                Get Weather
+
+            </button>
+
+        </div>
+
+        <div class="weather-card" id="weatherCard">
+
+            <div class="weather-icon">
+
+                🌤
+
+            </div>
+
+            <h2 id="cityName">
+
+                Welcome
+
+            </h2>
+
+            <h3 id="temperature">
+
+                Search for a city
+
+            </h3>
+
+            <p>
+
+                Weather information is loaded from the Express API.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            Full Stack Developer Internship • Day 12
+
+        </p>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
